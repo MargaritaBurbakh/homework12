@@ -1,0 +1,95 @@
+body{
+    margin:0 auto;
+}
+#road{
+    width: 1000px;
+    height: 1000px;
+  position: absolute;
+  bottom: -100px;
+  left: 600px;
+
+}
+#car{
+    position: absolute;
+    bottom: 10px;
+    left: 600px;
+}
+
+@keyframes race {
+/*********right**************/
+      0% {
+          bottom: 10px;
+          left: 600px;
+          transform: rotate(0deg);
+      }
+      15%{
+          bottom: 10px;
+          left: 1000px;
+          transform: rotate(0deg);
+      }
+      20% {
+          bottom: 10px;
+          left: 1200px;
+          transform: rotate(-25deg);
+      }
+      25% {
+          bottom: 10px;
+          left: 1400px;
+          transform: rotate(-45deg);
+      }
+/*******up*************/
+35% {
+    bottom: 200px;
+    left: 1400px;
+    transform: rotate(-90deg);
+}
+45% {
+    bottom: 300px;
+    left: 1400px;
+    transform: rotate(-90deg);
+}
+50% {
+    bottom: 700px;
+    left: 1400px;
+    transform: rotate(-180deg);
+}
+   /********left********/
+   60% {
+    bottom: 700px;
+    left: 1000px;
+    transform: rotate(-180deg);
+}
+70% {
+    bottom: 700px;
+    left: 800px;
+    transform: rotate(-180deg);
+}
+75% {
+    bottom: 700px;
+    left: 700px;
+    transform: rotate(-250deg);
+}
+/*******down******/
+
+85%{bottom: 700px;
+    left: 650px;
+    transform: rotate(-250deg);
+    
+}
+95% {
+    bottom: 300px;
+    left: 650px;
+    transform: rotate(-260deg);
+}
+100% {
+    bottom: 10px;
+    left: 600px;
+    transform: rotate(-320deg);
+}
+ }
+    #car{
+        animation-name: race;
+        animation-delay: 1s;
+        animation-duration: 7s;
+        animation-iteration-count: infinite;
+    }
