@@ -22,33 +22,53 @@ body{
           left: 600px;
           transform: rotate(0deg);
       }
+      10%{
+        bottom: 10px;
+        left: 700px;
+        transform: rotate(-0deg);
+      }
       15%{
           bottom: 10px;
-          left: 1000px;
-          transform: rotate(0deg);
+          left: 800px;
+          transform: rotate(-0deg);
       }
       20% {
           bottom: 10px;
-          left: 1200px;
-          transform: rotate(-25deg);
+          left: 900px;
+          transform: rotate(-0deg);
       }
       25% {
           bottom: 10px;
-          left: 1400px;
-          transform: rotate(-45deg);
+          left: 1350px;
+          transform: rotate(-20deg);
       }
 /*******up*************/
-35% {
+30%{
     bottom: 200px;
     left: 1400px;
     transform: rotate(-90deg);
 }
-45% {
+35% {
     bottom: 300px;
     left: 1400px;
     transform: rotate(-90deg);
 }
+40%{
+    bottom: 400px;
+    left: 1400px;
+    transform: rotate(-90deg);
+}
+45% {
+    bottom: 500px;
+    left: 1400px;
+    transform: rotate(-90deg);
+}
 50% {
+    bottom: 600px;
+    left: 1400px;
+    transform: rotate(-90deg);
+}
+55%{
     bottom: 700px;
     left: 1400px;
     transform: rotate(-180deg);
@@ -59,6 +79,11 @@ body{
     left: 1000px;
     transform: rotate(-180deg);
 }
+65%{
+    bottom: 700px;
+    left: 900px;
+    transform: rotate(-180deg);
+}
 70% {
     bottom: 700px;
     left: 800px;
@@ -67,18 +92,23 @@ body{
 75% {
     bottom: 700px;
     left: 700px;
+    transform: rotate(-180deg);
+}
+80%{
+    bottom: 700px;
+    left: 650px;
     transform: rotate(-250deg);
 }
 /*******down******/
 
-85%{bottom: 700px;
+90%{bottom: 700px;
     left: 650px;
     transform: rotate(-250deg);
     
 }
 95% {
     bottom: 300px;
-    left: 650px;
+    left: 630px;
     transform: rotate(-260deg);
 }
 100% {
